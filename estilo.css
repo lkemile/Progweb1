@@ -7,9 +7,7 @@ list-style-type: circle;
 background-color: DeepSkyBlue;
 }
 ul li {background-color: LightCyan;}
-	.figuras {
-		float: right;
-		}
+
 		.figuras figure img {
 		width: 100px;
 		}
@@ -29,4 +27,8 @@ color: #FF82AB
 }
 a:active {
 color: #FF1493
+}
+div {
+  text-align: center;
+  float: center;
 }
