@@ -1,3 +1,32 @@
 h2 {
 	font-size: larger;
 	}
+
+ul {
+list-style-type: circle;
+background-color: DeepSkyBlue;
+}
+ul li {background-color: LightCyan;}
+	.figuras {
+		float: right;
+		}
+		.figuras figure img {
+		width: 100px;
+		}
+		.figuras figure figcaption {
+		text-align: center;
+		font-weight: bold;
+		}
+a {
+text-decoration: none;
+color: #1C86EE;
+}
+a:visited {
+color: #912CEE	
+}
+a:hover {
+color: #FF82AB
+}
+a:active {
+color: #FF1493
+}
