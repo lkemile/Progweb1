@@ -11,6 +11,31 @@ h2 {color: grey11;}
 <body>
 
 <h1 style="color: DeepPink;">Larissa Kemile</h1>
+ <div class="botao">
+    <button name="aumenta-f" id="aumenta-f" title="Aumentar fonte">+</button>
+    <button name="diminui-f" id="diminui-f" title="Diminuir fonte">-</button>
+ </div>
+ <script>
+  window.onload = function() {
+      var elementh1 = document.querySelector('h1');
+      var elementBtnIncreaseFont = document.getElementById('aumenta-f');
+      var elementBtnDecreaseFont = document.getElementById('diminui-f');
+      var fontSize = 100;
+      var increaseDecrease = 10;
+
+      elementBtnIncreaseFont.addEventListener('click', function(event) {
+          fontSize = fontSize + increaseDecrease;
+          elementh1.style.fontSize = fontSize + '%';
+      });
+
+      elementBtnDecreaseFont.addEventListener('click', function(event) {
+          fontSize = fontSize - increaseDecrease;
+          elementh1.style.fontSize = fontSize + '%';
+      });
+  }
+</script>
+<br>
+<br>
 <p>Aluna do Instituto Federal do Espirito Santo.</p>
   <h2>Seja bem-vinda(o) a minha nova pagina.</h2>
 
