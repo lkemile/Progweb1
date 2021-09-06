@@ -32,3 +32,14 @@ div {
   text-align: center;
   float: center;
 }
+
+
+#aumenta-f {
+	position: absolute;
+	left: 10px ;
+}
+
+#diminui-f	{
+	position: absolute;
+	left: 40px ;
+}
