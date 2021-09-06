@@ -28,18 +28,8 @@ color: #FF82AB
 a:active {
 color: #FF1493
 }
-div {
+#figure {
   text-align: center;
-  float: center;
+  float: center
 }
 
-
-#aumenta-f {
-	position: absolute;
-	left: 10px ;
-}
-
-#diminui-f	{
-	position: absolute;
-	left: 40px ;
-}
